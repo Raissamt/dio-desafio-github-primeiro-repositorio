@@ -1,0 +1,37 @@
+# GIT
+
+- Ordem basica no GIT:
+
+ 1) git init (pra inicializar o git)
+
+ 2) git branch -M main (mudar da master pra main)
+
+ 3) git remote add origin + link do repositório criado la no git lab
+
+ 4) git add . (adicionar o código novo)
+
+ 5) git commit -m “escrever alguma mensagem” 
+
+ 6) git push -u origin main (so na primeira vez que for subir o projeto, nas proximas apenas git push)
+
+
+Outros comandos : 
+
+ git status (mostra como o código está, qual branch está, as alterações)
+ 
+ git add . (adicionar as alterações todas de uma vez)
+
+ git branch (lista as branchs locais, as que estão na minha máquina)
+ 
+ git branch -a (lista tudo, inclusive as remotas)
+
+ git log (histórico de todas as atualizações)
+
+ git remote update (pegar as atualizações do código que eu ainda não tinha)
+
+ git pull (mistura os codigos locais(meus) com os remotos (atuais) e sobe )
+
+ git checkout + alguma coisa, ex: git checkout master…. (mudar de uma branch pra outra)
+
+ glola (atalho do glog pra visualizar o histórico de todos as alterações do código)
+ 

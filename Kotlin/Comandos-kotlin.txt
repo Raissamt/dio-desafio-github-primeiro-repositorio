@@ -1,0 +1,41 @@
+EX: 
+
+fun main(){
+        var str = "Programaçao Kotlin"
+
+        println("O tamanho da string é: ${str.length}")
+        println("A posiçao (index) 0 da string: ${str[0]}")
+        println(str.startsWith("Pro", true))
+        println(str.endsWith("abc"))
+        println(str.substring(2))
+        println(str.substring(2, 5))
+        println(str.replace("Kotlin", "Kotlin é show!"))
+        println(str.lowercase())
+        println(str.uppercase())
+        println("   meu nome é     ".trim()) 
+
+}
+
+ 
+ o startsWith é pra saber se a string começa com "Pro" e o ignoreCase se precisa ignorar a ordem de letras maiúsculas (true) ou nao ignora (false)
+
+ substring pega a partir da posiçao 2 da string e exibe em tela da 2 em diante, nesse caso seria: ogramaçao Kotlin
+
+ substring pega apenas da posiçao 2 até a 4, a 5 ja nao entra, seria: ogr
+
+ replace substituir o primeiro valor pelo segundo
+
+ lowercase ficar tudo minúsculo
+
+ uppercase tudo maiúsculo
+
+ trim retira os espaços em branco! muito usado para email
+
+
+ ** alguns comandos de cálculo **
+
+ 
+ println(max(5, 10)) //valor máximo entre 5 e 10 = 10
+ println(min(5, 10)) //valor minimo entre 5 e 10 = 5
+ println(sqrt(45.67f)) //raiz quadrada = 5
+ println(round(234.67)) // arredonda o numero

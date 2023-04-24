@@ -1,0 +1,11 @@
+
+ private fun formatDate(serverDateStr: String): String {
+        val dfServer = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSZ", Locale.getDefault())
+        val dfMobile = SimpleDateFormat("dd/MM/yy 'às' HH:mm'h'", Locale.getDefault())
+
+        val date = dfServer.parse(serverDateStr)
+
+        val mobileDateStr = dfMobile.format(date)
+
+        return mobileDateStr
+    }
